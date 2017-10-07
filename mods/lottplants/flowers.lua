@@ -57,6 +57,7 @@ minetest.register_node("lottplants:anemones", {
 })
 
 minetest.register_node("lottplants:asphodel", {
+	description = "Asphodel",
 	drawtype = "plantlike",
 	tiles = { "lottplants_asphodel.png" },
 	sunlight_propagates = true,
@@ -110,6 +111,7 @@ minetest.register_node("lottplants:eglantive", {
 })
 
 minetest.register_node("lottplants:elanor", {
+	description = "Elanor",
 	drawtype = "plantlike",
 	tiles = { "lottplants_elanor.png" },
 	inventory_image = "lottplants_elanor.png",
